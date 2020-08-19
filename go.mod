@@ -22,7 +22,6 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/grpc-ecosystem/grpc-gateway v1.9.5
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/jinlongchen/bbolt v1.3.5
 	github.com/jonboulle/clockwork v0.1.0
 	github.com/json-iterator/go v1.1.7
 	github.com/mattn/go-colorable v0.0.9 // indirect
@@ -50,6 +49,7 @@ require (
 )
 
 replace github.com/jinlongchen/bbolt => ../bbolt
+
 //replace (
 //	github.com/coreos/bbolt => ../bbolt
 //	go.etcd.io/bbolt => ../bbolt
